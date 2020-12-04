@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleLoadingView">
+        <!-- 圆环的宽度 -->
+        <attr name="ringWidth" format="dimension" />
+        <!-- 内圆颜色 -->
+        <attr name="innerCircleColor" format="color" />
+        <!-- 圆环进度条的颜色 -->
+        <attr name="ringProgressColor" format="color" />
+        <!-- 圆环底色 -->
+        <attr name="ringBgColor" format="color" />
+        <!-- 进度百分比 0~1 -->
+        <attr name="progressPercent" format="float" />
+        <!-- 进度条 起始位置（角度） -->
+        <attr name="progressStartDegree" format="float" />
+        <!-- 中间 logo 资源id-->
+        <attr name="logoResId" format="reference" />
+        <!-- 中间 logo 与 view边框的距离-->
+        <attr name="logoMarginBorder" format="dimension" />
+        <!-- 是否自动转圈,默认转圈 -->
+        <attr name="autoRotate" format="boolean" />
+        <!-- 是否启动动画 -->
+        <attr name="animating" format="boolean" />
+    </declare-styleable>
+</resources>
